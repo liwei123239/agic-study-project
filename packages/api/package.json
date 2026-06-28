@@ -1,0 +1,28 @@
+{
+  "name": "@aigc-study-project/api",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@aigc-study-project/db": "workspace:*",
+    "@aigc-study-project/env": "workspace:*",
+    "@trpc/client": "catalog:",
+    "@trpc/server": "catalog:",
+    "@types/pg": "^8.16.0",
+    "dotenv": "catalog:",
+    "drizzle-orm": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@aigc-study-project/config": "workspace:*",
+    "hono": "catalog:",
+    "typescript": "catalog:"
+  }
+}
