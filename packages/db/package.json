@@ -17,13 +17,14 @@
   },
   "dependencies": {
     "@aigc-study-project/env": "workspace:*",
-    "@neondatabase/serverless": "^1.0.2",
     "dotenv": "catalog:",
     "drizzle-orm": "catalog:",
+    "pg": "^8.13.1",
     "zod": "catalog:"
   },
   "devDependencies": {
     "@aigc-study-project/config": "workspace:*",
+    "@types/pg": "^8.11.10",
     "drizzle-kit": "^0.31.8",
     "typescript": "catalog:"
   }
